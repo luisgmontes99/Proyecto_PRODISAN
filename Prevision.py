@@ -36,4 +36,5 @@ Archivo_salida = open("archivo/Prueba.out","w") #Esta srrá la variable donde co
 Archivo_salida.write(str(len(arr_final))) #Aqui se escribe en el archivo la cantidad de numeros que tiene el mejor arreglo 
 for i in range(0,len(arr_final)):
     Archivo_salida.write('\n'+ str(arr_final[i])) #Se escribe uno a uno el mejor arreglo, respetando su salto de linea
-Archivo_salida.close() #Se cierra el archivo para que el programa no espera mas escritura.
+
+#Este es un nuevco comentario
